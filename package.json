@@ -1,16 +1,18 @@
 {
   "name": "latex-log",
   "main": "./lib/latex-log",
-  "version": "0.0.1",
-  "description": "Select the next error in a LaTeX log file",
+  "version": "1.0.0",
+  "description": "Move to the next or previous error in a LaTeX log file",
   "activationCommands": {
+    "atom-text-editor": "latex-log:prev-error",
     "atom-text-editor": "latex-log:next-error"
   },
+  "repository": "https://github.com/khaeru/atom-latex-log",
   "license": "MIT",
   "engines": {
     "atom": ">1.24.0"
   },
   "dependencies": {
-    "selector-kit": "^0.1"
+    "first-mate": ">=7.1.0"
   }
 }
