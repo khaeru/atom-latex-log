@@ -1,0 +1,16 @@
+{
+  "name": "latex-log",
+  "main": "./lib/latex-log",
+  "version": "0.0.1",
+  "description": "Select the next error in a LaTeX log file",
+  "activationCommands": {
+    "atom-text-editor": "latex-log:next-error"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">1.24.0"
+  },
+  "dependencies": {
+    "selector-kit": "^0.1"
+  }
+}
