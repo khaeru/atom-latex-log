@@ -1,10 +1,9 @@
 {
   "name": "latex-log",
   "main": "./lib/latex-log",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Move to the next or previous error in a LaTeX log file",
   "activationCommands": {
-    "atom-text-editor": "latex-log:prev-error",
     "atom-text-editor": "latex-log:next-error"
   },
   "repository": "ssh://git@github.com/khaeru/atom-latex-log",
